@@ -15,11 +15,11 @@ num4 = gets.chomp
 print "Please enter the fifth number: "
 num5 = gets.chomp
 
-num1 = num1.to_i
-num2 = num2.to_i
-num3 = num3.to_i
-num4 = num4.to_i
-num5 = num5.to_i
+num1 = num1.to_f
+num2 = num2.to_f
+num3 = num3.to_f
+num4 = num4.to_f
+num5 = num5.to_f
 
 sum = num1 + num2 + num3 + num4 + num5
 
