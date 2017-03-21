@@ -1,11 +1,3 @@
-puts "Please choose what type of array(list) you would like to work with.\n'S' for strings and 'N' for numbers."
-puts %{
-  S: String -- Words
-  N: Number -- 36, -42 or 3.14
-}
-print ">> "
-selected = gets.chomp.downcase
-
 def string
   puts "Please enter type a word and press enter. When you don't want to add anymore just leave it blank and press enter."
 
@@ -14,13 +6,10 @@ def string
   loop do
     print "\nPlease type any word you desire: "
     input = gets.chomp
-    if input == ""
+    if input.empty? == true
       puts "\nThank you for your input."
       puts "\n"
       break
-    # elsif input.is_a?(Numeric) == true
-    #   puts "Please type a valid string(word)."
-    #   break
     else
       string += input
     end
@@ -35,8 +24,8 @@ def numbers
 
   loop do
     print "\nPlease type any number you desire: "
-    input = gets
-    if input == "\n"
+    input = gets.chomp
+    if input.empty? == true
       puts "\nThank you for your input."
       puts "\n"
       break
@@ -55,6 +44,14 @@ def numbers
   puts "The average of #{numbers} is #{avg}."
   puts "\n"
 end
+
+puts "Please choose what type of array(list) you would like to work with.\n'S' for strings and 'N' for numbers."
+puts %{
+  S: String -- Words
+  N: Number -- 36, -42 or 3.14
+}
+print ">> "
+selected = gets.chomp.downcase
 
 if selected == "s"
   string
