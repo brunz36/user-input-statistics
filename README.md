@@ -1,18 +1,14 @@
 # User Input Statistics
 
-# Octodex
-
-#### TIY Week 1 Day 4 &dash; Cohort 7
-### **[The Iron Yard](http://theironyard.com)** Cohort 7 &dash; Ruby On Rails Back-End Engineer
-
+#### TIY Week 2 Day 1 &dash; Cohort 7
+### Week 2 was the start of our Ruby training at **[The Iron Yard](http://theironyard.com)**
 - This application shows the use of the following technologies:
-  - HTML
-  - CSS
+  - Ruby
 - The major features of the application are:
-  - Responsive Web Design
-  - CSS Tricks
-  - Flexbox
-  - Deploy to the Web
+  - User Input
+  - Data manipulation
+  - String and Integer
+  - Use of methods
 
 ## DEMO
-![](https://raw.githubusercontent.com/brunz36/portfolio/master/docs/portfolio.gif)
+![](https://raw.githubusercontent.com/brunz36/user-input-statistics/master/docs/user-input-stats.gif)
